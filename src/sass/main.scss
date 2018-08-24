@@ -1,0 +1,29 @@
+.test{
+    color:blue;
+    transform: rotate(45deg);
+}
+.camera_prev, .camera_next, .camera_commands {
+	cursor: pointer;
+	height: 40px;
+	margin-top: -20px;
+	position: absolute;
+	top: 50%;
+	width: 40px;
+	z-index: 2;
+}
+.camera_prev {
+	left: 0;
+}
+.camera_prev > span {
+	display: block;
+	height: 40px;
+	width: 40px;
+}
+.camera_next {
+	right: 0;
+}
+.camera_next > span {
+	display: block;
+	height: 40px;
+	width: 40px;
+}
