@@ -9,8 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": " gulp dev",
     "dev": " gulp dev",
-    "clean": "rimraf dist",
-    "build": "rimraf dist && gulp prod"
+    "clean": "rimraf dist disthash",
+    "build": "rimraf dist disthash && gulp prod"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-rc.2",
@@ -27,5 +27,6 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
     "rimraf": "^2.6.2"
-  }
+  },
+  "dependencies": {}
 }
